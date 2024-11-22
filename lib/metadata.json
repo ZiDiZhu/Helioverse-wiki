@@ -1,6 +1,6 @@
 {
   "vaultName": "Helioverse_Chronicles",
-  "lastExport": 1732310939415,
+  "lastExport": 1732311444050,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -21,6 +21,7 @@
     "HelioVerse-Wiki/Telepresence.md",
     "HelioVerse-Wiki/Terra-Nova(Antarctica).md",
     "HelioVerse-Wiki/Undergrounds.md",
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -34,9 +35,24 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -50,181 +66,293 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
   "fileInfo": {
     "HelioVerse-Wiki/images/Pasted image 20241120120221.png": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 652803,
-      "exportedPath": "HelioVerse-Wiki/images/Pasted image 20241120120221.png",
+      "exportedPath": "helioverse-wiki/images/pasted-image-20241120120221.png",
       "dependencies": []
     },
     "HelioVerse-Wiki/Aetheria.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 53,
-      "exportedPath": "HelioVerse-Wiki/Aetheria.html",
+      "exportedPath": "helioverse-wiki/aetheria.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Classification of Humans.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 2157,
-      "exportedPath": "HelioVerse-Wiki/Classification of Humans.html",
+      "exportedPath": "helioverse-wiki/classification-of-humans.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Fleet Nations.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 190,
-      "exportedPath": "HelioVerse-Wiki/Fleet Nations.html",
+      "exportedPath": "helioverse-wiki/fleet-nations.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Goup.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 43,
-      "exportedPath": "HelioVerse-Wiki/Goup.html",
+      "exportedPath": "helioverse-wiki/goup.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Heliomancy.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 522,
-      "exportedPath": "HelioVerse-Wiki/Heliomancy.html",
+      "exportedPath": "helioverse-wiki/heliomancy.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Index.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 437,
-      "exportedPath": "HelioVerse-Wiki/Index.html",
+      "exportedPath": "helioverse-wiki/index.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Mars.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 872,
-      "exportedPath": "HelioVerse-Wiki/Mars.html",
+      "exportedPath": "helioverse-wiki/mars.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Neo-Atlantis.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 747,
-      "exportedPath": "HelioVerse-Wiki/Neo-Atlantis.html",
+      "exportedPath": "helioverse-wiki/neo-atlantis.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Noah's-Ark.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 149,
-      "exportedPath": "HelioVerse-Wiki/Noah's-Ark.html",
+      "exportedPath": "helioverse-wiki/noah's-ark.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Nomads.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 158,
-      "exportedPath": "HelioVerse-Wiki/Nomads.html",
+      "exportedPath": "helioverse-wiki/nomads.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Proto-Mars.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 572,
-      "exportedPath": "HelioVerse-Wiki/Proto-Mars.html",
-      "dependencies": []
+      "exportedPath": "helioverse-wiki/proto-mars.html",
+      "dependencies": [
+        "helioverse-wiki/images/pasted-image-20241120120221.png"
+      ]
     },
     "HelioVerse-Wiki/Telepresence.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 0,
-      "exportedPath": "HelioVerse-Wiki/Telepresence.html",
+      "exportedPath": "helioverse-wiki/telepresence.html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Terra-Nova(Antarctica).md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 35,
-      "exportedPath": "HelioVerse-Wiki/Terra-Nova(Antarctica).html",
+      "exportedPath": "helioverse-wiki/terra-nova(antarctica).html",
       "dependencies": []
     },
     "HelioVerse-Wiki/Undergrounds.md": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 0,
-      "exportedPath": "HelioVerse-Wiki/Undergrounds.html",
+      "exportedPath": "helioverse-wiki/undergrounds.html",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1732310939415,
+      "modifiedTime": 1732311444050,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "helioverse-wiki/images/pasted-image-20241120120221.png": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 652803,
+      "exportedPath": "helioverse-wiki/images/pasted-image-20241120120221.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 8044,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 1225,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 131118,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 12922,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1732311444050,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     }
   }
